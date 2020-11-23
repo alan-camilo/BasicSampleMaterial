@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ParentTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="materialButtonStyle">@style/ui_RoundedButton</item>
+        <item name="actionOverflowButtonStyle">@style/ui_OverflowButtonStyle</item>
+        <item name="textAppearanceButton">@style/ui_TextAppearanceButton</item>
+    </style>
+
+    <!-- Base application themes -->
+    <style name="AppTheme" parent="ParentTheme">
+        <item name="android:windowBackground">@color/main_background</item>
+        <item name="android:statusBarColor">@color/main_status_bar_color</item>
+    </style>
+
+    <style name="ui_RoundedButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingStart">32dp</item>
+        <item name="android:paddingEnd">32dp</item>
+        <item name="cornerRadius">24dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Body1</item>
+    </style>
+
+    <style name="ui_OverflowButtonStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">?attr/colorPrimary</item>
+    </style>
+
+    <style name="PillShapeFloatingActionButton">
+        <item name="android:gravity">center</item>
+        <item name="android:minWidth">@dimen/pill_fab_min_width</item>
+        <item name="android:minHeight">@dimen/pill_fab_min_height</item>
+        <item name="android:paddingTop">@dimen/pill_fab_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/pill_fab_vertical_padding</item>
+        <item name="android:paddingStart">@dimen/pill_fab_horizontal_padding</item>
+        <item name="android:paddingEnd">@dimen/pill_fab_horizontal_padding</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="elevation">@dimen/pill_fab_elevation</item>
+        <item name="iconGravity">textEnd</item>
+    </style>
+
+    <style name="ui_TextAppearanceButton" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0.0714285714</item>
+    </style>
+</resources>

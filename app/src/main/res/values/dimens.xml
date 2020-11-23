@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Pill shape fab -->
+    <dimen name="pill_fab_min_width">128dp</dimen>
+    <dimen name="pill_fab_min_height">60dp</dimen>
+    <dimen name="pill_fab_recycler_view_padding_bottom">104dp</dimen>
+    <dimen name="pill_fab_horizontal_padding">24dp</dimen>
+    <dimen name="pill_fab_vertical_padding">12dp</dimen>
+    <dimen name="pill_fab_elevation">4dp</dimen>
+    <dimen name="pill_fab_margin">24dp</dimen>
+</resources>

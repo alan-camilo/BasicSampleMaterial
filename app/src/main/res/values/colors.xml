@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Main colors -->
+	<color name="color_primary">#266DB0</color>
+	<color name="color_primary_dark">#006b9b</color>
+	<color name="color_secondary">@color/color_primary</color>
+	<color name="color_accent">@color/color_primary</color>
+	<color name="color_splashscreen_background">@color/white</color>
+	<color name="ic_launcher_background">#FFFFFF</color>
+	<color name="white">@android:color/white</color>
+	<color name="main_background">@color/white</color>
+	<color name="main_status_bar_color">#B1B1B1</color>
+</resources>
